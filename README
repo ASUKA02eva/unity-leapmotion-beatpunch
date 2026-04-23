@@ -1,31 +1,39 @@
-# Unity LeapMotion BeatPunch 🥊
+<div align="center">
+
+# 🥊 Unity LeapMotion BeatPunch
+
+**基于 Unity3D 和 Leap Motion 的纯手势体感音乐游戏**
 
 ![Unity](https://img.shields.io/badge/Unity-3D-black?style=flat-square&logo=unity)
 ![LeapMotion](https://img.shields.io/badge/LeapMotion-Controller-00c08b?style=flat-square)
 ![Language](https://img.shields.io/badge/Language-C%23%20%7C%20Python-blue?style=flat-square)
 
-这是一个基于 Unity3D 和 Leap Motion 开发的手势体感音乐游戏（毕业设计项目）。在本作中，玩家将彻底告别传统的手柄和按键，通过 Leap Motion 捕捉双手的真实空间位置，在音符到达判定线时挥出真实的“直拳”来击碎音符，享受沉浸式的音乐律动。
+</div>
+
+> 在本作中，玩家将彻底告别传统的手柄和按键，通过 Leap Motion 捕捉双手的真实空间位置，在音符到达判定线时挥出真实的“直拳”来击碎音符，享受沉浸式的音乐律动。
+
+<br/>
 
 ## ✨ 核心特性 (Key Features)
 
 ### 🎮 纯体感拳击玩法
-* **零按键交互**：全局摒弃传统 UI 按钮，无论是核心打歌还是菜单导航，完全依赖手势控制。
+* **零按键交互**：全局摒弃传统 UI 按钮，无论是核心打歌还是菜单导航，完全依赖 **手势控制**。
 * **精准打击判定**：通过 Leap Motion 的高精度手部追踪，精准捕捉玩家的挥拳动作与时机。
 
 ### 🏆 硬核的评级系统
-* 游戏内置了严格的判定逻辑与分数结算，单局表现将根据打击精准度被细分为 7 个层级的评价：
-    * **SSS / SS / S** (卓越表现)
-    * **A / B / C** (良好至及格)
-    * **D** (需要练习)
+* 游戏内置了严格的判定逻辑与分数结算，单局表现将根据打击精准度被细分为 **7 个层级** 的评价：
+  * **SSS / SS / S** (卓越表现)
+  * **A / B / C** (良好至及格)
+  * **D** (需要练习)
 
 ### 🖥️ 优雅的交互界面 (UI)
-* **Cover Flow 选单**：歌曲选择与主界面采用了经典的 Cover Flow 风格滑动菜单，视觉焦点集中，去除了冗余的 Ripple（水波纹）等视觉特效，保持整体界面的极致清爽与流畅。
+* **Cover Flow 选单**：歌曲选择与主界面采用了经典的 **Cover Flow 风格滑动菜单**，视觉焦点集中，去除了冗余的 Ripple（水波纹）等视觉特效，保持整体界面的极致清爽与流畅。
 * **独立的设置模块**：拥有完全独立于主菜单逻辑的 `SettingManager`，专门负责精准管理游戏的音量控制、分辨率调整等系统级设置，架构清晰，拒绝代码强耦合。
 
 ### 🛠️ 谱面辅助工具
-* **BeatMapGeneratorTool**：随项目附带了一个基于 Python 开发的谱面生成/处理工具，方便快速将音乐音频与节拍数据转化为游戏内可读取的谱面文件。
+* **BeatMapGeneratorTool**：随项目附带了一个基于 **Python** 开发的谱面生成/处理工具，方便快速将音乐音频与节拍数据转化为游戏内可读取的谱面文件。
 
----
+<br/>
 
 ## 📂 项目结构 (Directory Structure)
 
